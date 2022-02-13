@@ -1,0 +1,52 @@
+.page {
+  max-width: 1280px;
+  background-color: #2A2C2F;
+  padding: 28px 48px 0;
+}
+
+.section {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__lang {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: flex-end;
+  margin: 0;
+}
+
+.header__lang-link {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__lang-link:enabled {
+  text-decoration: underline;
+}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100% - 100px*2);
+}
+
+.lead__title {
+  padding-top: 56px;
+  margin: 0;
+  color: white;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+}
